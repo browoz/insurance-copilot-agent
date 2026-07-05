@@ -1,0 +1,11 @@
+.env
+.deps/
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/processed/
+.pytest_cache/
+.streamlit/secrets.toml
+local_secrets/
+kaggle.json

@@ -1,0 +1,6 @@
+plan_id,state,county,issuer,plan_name,metal_level,monthly_premium,deductible,out_of_pocket_max
+TX-SILVER-001,TX,Dallas,Blue Example Health,Silver Saver 2500,Silver,410.25,2500,8500
+TX-BRONZE-001,TX,Dallas,Care Example,Bronze Basic 7000,Bronze,290.10,7000,9200
+TX-GOLD-001,TX,Dallas,HealthSure Example,Gold Plus 1000,Gold,610.80,1000,6500
+FL-SILVER-001,FL,Miami-Dade,Sunshine Example Health,Silver Choice 3000,Silver,455.40,3000,8700
+

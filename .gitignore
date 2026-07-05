@@ -1,0 +1,17 @@
+.env
+.venv/
+.deps/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+.streamlit/cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+data/raw/
+data/processed/
+*.sqlite
+*.duckdb
+*.log
+local_secrets/
+kaggle.json

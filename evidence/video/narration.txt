@@ -1,0 +1,6 @@
+This capstone is an agentic insurance copilot built on public CMS marketplace data only.
+It uses an ADK style multi agent flow: security, planning, structured plan search, retrieval, knowledge graph, and answer synthesis.
+The live app shows plan counts, graph metrics, agent trace, citations, and structured plan results.
+The MCP server exposes search plans, retrieve terms, summarize graph, and answer question tools.
+The security layer blocks prompt injection and private client data requests.
+Evaluation and MCP smoke tests pass, making the submission reproducible, defensible, and demo ready.

@@ -1,0 +1,1 @@
+"""Insurance Copilot application package."""
