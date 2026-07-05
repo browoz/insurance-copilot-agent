@@ -4,9 +4,9 @@ Capstone prototype for a public-data health insurance copilot. The app helps a u
 
 ## Demo Video
 
-[![Watch the Insurance Copilot demo](evidence/qa/02_after_ask_loaded.png)](evidence/video/insurance-copilot-capstone-demo-google-tts.mp4)
+[![Watch the Insurance Copilot demo](evidence/qa/02_after_ask_loaded.png)](https://youtu.be/ydxiY-pUycE)
 
-Click the preview above to watch the Gemini TTS narrated demo video.
+Click the preview above to watch the Gemini TTS narrated demo video on YouTube.
 
 ## Problem Statement
 
