@@ -2,6 +2,12 @@
 
 Capstone prototype for a public-data health insurance copilot. The app helps a user search marketplace plans, compare structured plan facts, and get plain-English explanations through an ADK-style multi-agent RAG system.
 
+## Demo Video
+
+[![Watch the Insurance Copilot demo](evidence/qa/02_after_ask_loaded.png)](evidence/video/insurance-copilot-capstone-demo-google-tts.mp4)
+
+Click the preview above to watch the Gemini TTS narrated demo video.
+
 ## Problem Statement
 
 Health insurance plan shopping is difficult because users must compare premiums, deductibles, out-of-pocket limits, metal levels, service areas, and benefit terminology at the same time. A normal chatbot can explain terms, but it can also hallucinate plan facts. A normal database search can filter plans, but it cannot explain insurance language.
