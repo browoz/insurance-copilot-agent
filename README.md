@@ -61,7 +61,8 @@ User question
 ## Setup
 
 ```powershell
-cd "C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local"
+git clone https://github.com/browoz/insurance-copilot-agent.git
+cd insurance-copilot-agent
 python -m pip install -r requirements.txt -t .deps
 copy .env.example .env
 ```
@@ -79,7 +80,7 @@ Never commit `.env`.
 ## Build CMS Data
 
 ```powershell
-$env:PYTHONPATH="C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local\.deps"
+$env:PYTHONPATH=".\.deps"
 python scripts\download_cms_pufs.py --year 2026 --datasets plan_attributes rates benefits service_areas
 python scripts\build_cms_processed.py --year 2026 --sample-rows 250000
 ```
@@ -102,7 +103,7 @@ data/processed/docs.csv
 ## Run CLI Smoke Test
 
 ```powershell
-$env:PYTHONPATH="C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local\.deps;C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local\app"
+$env:PYTHONPATH=".\.deps;.\app"
 python app\cli.py
 ```
 
@@ -111,7 +112,7 @@ The CLI prints the agent trace, answer, matching plans, and retrieved documents.
 ## Run Streamlit UI
 
 ```powershell
-$env:PYTHONPATH="C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local\.deps;C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local\app"
+$env:PYTHONPATH=".\.deps;.\app"
 python -m streamlit run app\streamlit_app.py --global.developmentMode false --server.address 127.0.0.1 --server.port 8501
 ```
 
@@ -128,7 +129,7 @@ The UI shows:
 ## Run Evaluation
 
 ```powershell
-$env:PYTHONPATH="C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local\.deps;C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local\app"
+$env:PYTHONPATH=".\.deps;.\app"
 python evaluation\run_eval.py
 ```
 
@@ -144,7 +145,7 @@ The evaluation checks:
 ## Run MCP Server Smoke Test
 
 ```powershell
-$env:PYTHONPATH="C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local\.deps;C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local\app"
+$env:PYTHONPATH=".\.deps;.\app"
 python scripts\smoke_mcp.py
 ```
 

@@ -20,7 +20,7 @@ Ready for public GitHub upload after using the sanitized upload folder.
 - `.gitignore` excludes `.env`, `.deps`, raw CMS data, processed CMS data, caches, logs, local secrets, and Kaggle credentials.
 - The app uses public CMS sample data for public repository usage.
 - The app explicitly blocks private brokerage/client document requests.
-- No files from `E:\ALL_RISK_INSURANCE_DOCS` are included.
+- No private brokerage/client document folders are included.
 
 ## Files Excluded From Public Upload
 

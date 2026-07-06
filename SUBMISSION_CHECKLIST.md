@@ -33,7 +33,7 @@ Do not submit:
 - `data/raw/`
 - `data/processed/`
 - `__pycache__/`
-- any files from `E:\ALL_RISK_INSURANCE_DOCS`
+- any private brokerage/client document folders
 
 ## Verification Commands
 

@@ -3,7 +3,8 @@
 ## Local Streamlit
 
 ```powershell
-cd "C:\Users\ravja\OneDrive\Documents\New project\insurance-copilot-local"
+git clone https://github.com/browoz/insurance-copilot-agent.git
+cd insurance-copilot-agent
 python -m pip install -r requirements.txt -t .deps
 $env:PYTHONPATH=".\.deps;.\app"
 python -m streamlit run app\streamlit_app.py --global.developmentMode false --server.address 127.0.0.1 --server.port 8501
